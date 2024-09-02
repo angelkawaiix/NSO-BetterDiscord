@@ -9,13 +9,6 @@ Place the file titled **nso.theme.css** in your BetterDiscord themes folder.
 Hint: `C:\Users\user\AppData\Roaming\BetterDiscord\themes`
 
 ## To Do
-
-- Top of friends list
-- Pinned messages list
-- Inbox
-- Add drop shadows behind names
-- Fix the "users" tab
-- Make the server name tab pink
 - Add example images to the github
 - Change reaction background color
 - Change right click color
