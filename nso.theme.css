@@ -1,0 +1,191 @@
+/**
+ * @name Needy Streamer Overload!
+ * @author _xangelkawaiix_
+ * @description Inspired by Needy Streamer Overload
+ * @version 0.2
+ */
+
+:root {
+	--pink: #f0d1f1;
+	--purple: #4d23cf;
+	--blue: #90f4e4;
+	--white: #fff;
+	--bluetex: #6eb5df;
+	--header-primary: #4d23cf;
+	--header-secondary: #4d23cf;
+	--background-primary: var(--white);
+	--background-secondary: var(--white);
+	--channel-icon: var(--purple);
+	--interactive-active: var(--bluetex);
+	--bg-overlay-selected: var(--white);
+	--channels-default: var(--purple);
+	--background-tertiary: var(--pink);
+	--text-muted: var(--purple);
+	--background-secondary-alt: var(--pink);
+	--interactive-normal: var(--purple);
+	--text-normal: var(--purple);
+	--channeltextarea-background: var(--pink);
+	--embed-title: var(--purple);
+	--mention-foreground: var(--white);
+	--mention-background: var(--purple);
+
+	--font-primary: "Zpix";
+	--font-display: "Zpix";
+    --font-headline: "Zpix";
+
+/* Left side bar */
+	
+.guilds_a4d4d9 {
+    background: var(--pink);
+	border: 3px solid var(--blue)
+}
+
+.guilds_a4d4d9::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px double var(--purple);
+}
+
+/* CHANNELS BAR */
+
+.sidebar_a4d4d9 {
+    border: 3px solid var(--purple)
+}
+
+
+
+/* CHANNEL CATEGORIES */
+
+.wrapperCommon_a08117 {
+	height: 40px;
+	background: var(--pink);
+	border: 3px solid var(--blue)
+}
+
+.wrapperCommon_a08117::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px double var(--purple);
+}
+
+.container_a5ad5c {
+    text-align: center;
+    letter-spacing: .1em;
+	font-size: 14px;
+}
+
+/* server name */
+
+.container_fd6364 {
+    border: 3px solid var(--blue)
+}
+
+.container_fd6364::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px double var(--purple);
+}
+
+/* LIVE NOW */
+
+.container_fa295b{
+    background: var(--pink);
+	border: 3px solid var(--blue)
+}
+
+.wrapperCommon_a08117::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px double var(--purple);
+}
+
+/* USER PROFILE */
+
+.panels_a4d4d9 {
+    flex: 0 0 auto;
+    background-color: var(--background-secondary-alt);
+    z-index: 2;
+	border: 3px solid var(--purple);
+}
+
+/* CHANNEL TOP BAR */
+
+.subtitleContainer_a7d72e {
+    background: var(--pink);
+	border: 3px solid var(--purple)
+}
+
+.title_a7d72e {
+    background: var(--pink);
+	
+
+}
+
+/* chat */
+
+.scrollableContainer_d0696b {
+    border: 3px solid var(--blue)
+}
+
+.scrollableContainer_d0696b::after {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px double var(--purple);
+}
+
+.button_df39bd {
+    border: 3px solid var(--blue)
+}
+
+.button_df39bd::after {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px double var(--purple);
+}
+
+.embedFull_b0068a{
+	background: var(--pink);
+
+/* user list */
+
+.container_cbd271 {
+    border: 3px solid var(--purple)
+}
+
+
+.membersGroup_cbd271{
+	background: var(--pink);
+	padding: 9px 8px 0 16px;
+    height: 40px;
+	border: 3px solid var(--purple)
+}
+	
+.name_d808b0, .username_f9f2ca{
+	text-shadow: 1px 1px 2px var(--purple);
+}
+
+}
