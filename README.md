@@ -1,15 +1,21 @@
-Can be installed by putting the nso.theme.css file into your BetterDiscord themes folder (C:\Users\[user]\AppData\Roaming\BetterDiscord\themes)
+# How to Download
 
-To do:
+You need [BetterDiscord](https://betterdiscord.app/ "BetterDiscord") to use this theme.
+Note: This theme has not been tested with [Vencord](https://vencord.dev/ "Vencord"), since I do not know how it works.
 
-☐ Top of friends list
+Downloade the [lastest release](https://github.com/angelkawaiix/NSO-betterdiscord/releases "lastest release").
 
-☐ Pinned messages list
+Place the file titled **nso.theme.css** in your BetterDiscord themes folder.
+Hint: `C:\Users\user\AppData\Roaming\BetterDiscord\themes`
 
-☐ Inbox
+## To Do
 
-☐ Add drop shadows behind names
+- Top of friends list
+- Pinned messages list
+- Inbox
+- Add drop shadows behind names
+- Fix the "users" tab
+- Make the server name tab pink
+- Add example images to the github
 
-☐ Fix the "users" tab
-
-☐ Make the server name tab pink
+This is my first ever discord theme, and first time posting on GitHub, so bear with me.
