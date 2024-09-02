@@ -17,5 +17,9 @@ Hint: `C:\Users\user\AppData\Roaming\BetterDiscord\themes`
 - Fix the "users" tab
 - Make the server name tab pink
 - Add example images to the github
+- Change reaction background color
+- Change right click color
+- Change link colors
+- Make a dark mode
 
 This is my first ever discord theme, and first time posting on GitHub, so bear with me.
