@@ -2,8 +2,19 @@
  * @name Needy Streamer Overload!
  * @author _xangelkawaiix_
  * @description Inspired by Needy Streamer Overload
- * @version 0.2
+ * @version 1.1.0
  */
+ 
+ /*
+ v1.1 changes
+- Top of friends list
+- Add drop shadows behind names
+- Pinned messages list
+- Inbox
+- Fix the "users" tab
+- Make the server name tab pink
+ */
+ 
 
 :root {
 	--pink: #f0d1f1;
@@ -25,13 +36,22 @@
 	--interactive-normal: var(--purple);
 	--text-normal: var(--purple);
 	--channeltextarea-background: var(--pink);
-	--embed-title: var(--purple);
+	--embed-title: #4d23cf;
 	--mention-foreground: var(--white);
 	--mention-background: var(--purple);
+	--__header-bar-background: var(--pink);
+	--channel-icon: var(--purple);
+	--background-modifier-selected: var(--white);
+	--text-positive: var(--purple);
+
 
 	--font-primary: "Zpix";
 	--font-display: "Zpix";
     --font-headline: "Zpix";
+
+.username_f9f2ca, .name_d808b0{
+	text-shadow: 1px 1px 2px var(--purple);
+}
 
 /* Left side bar */
 	
@@ -85,6 +105,7 @@
 /* server name */
 
 .container_fd6364 {
+	background: var(--pink);
     border: 3px solid var(--blue)
 }
 
@@ -169,10 +190,11 @@
 
 .embedFull_b0068a{
 	background: var(--pink);
+}
 
 /* user list */
 
-.container_cbd271 {
+.container_cbd271{
     border: 3px solid var(--purple)
 }
 
@@ -184,8 +206,141 @@
 	border: 3px solid var(--purple)
 }
 	
-.name_d808b0, .username_f9f2ca{
-	text-shadow: 1px 1px 2px var(--purple);
+/* Friends */
+
+.container_fc4f04{
+	background: var(--pink);
+	border: 3px solid var(--blue)
+}
+
+.container_fc4f04::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px double var(--purple);
+}
+
+.icon_fc4f04 {
+    color: var(--purple);
+}
+
+.defaultColor_e9e35f {
+    color: var(--purple);
+}
+
+.topPill_a0 .themed_a0.selected_a0.item_a0, .side_a0 .themed_a0.selected_a0.item_a0 {
+    background-color: var(--white);
+}
+
+.selected_a0.item_a0, .selected_a0.item_a0:hover {
+    cursor: default;
+    color: var(--purple);
+}
+
+/* pinned messages*/
+
+.messagesPopoutWrap_ac90a2 {
+    background-color: var(--background-secondary);
+    box-shadow: var(--shadow-border), var(--shadow-high);
+    width: 420px;
+    min-height: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+	border: 3px solid var(--blue)
+}
+
+.messagesPopoutWrap_ac90a2::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px double var(--purple);
+}
+
+.header_ac90a2 {
+    background-color: var(--pink);
+}
+
+.messagesPopoutWrap_ac90a2 {
+    background-color: var(--white);
+}
+
+.footer_ac90a2 {
+    padding: 16px;
+    text-align: center;
+    background-color: var(--pink);
+}
+
+.body_ac90a2 {
+    color: var(--purple);
+}
+
+.pro_b5053a {
+    color: var(--purple);
+}
+
+.defaultColor_a595eb {
+    color: var(--purple);
+}
+
+/* inbox*/
+
+.container_f1c3d9 {
+    background-color: var(--pink);
+    box-shadow: var(--shadow-border), var(--shadow-high);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+	border: 3px solid var(--blue)
+}
+
+.container_f1c3d9::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px double var(--purple);
+}
+
+.messages_c06487 {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 16px;
+    padding-left: 0;
+}
+
+.channelHeader_f3978e {
+    align-items: center;
+    background-color: var(--pink);
+    box-sizing: border-box;
+    display: flex;
+    height: 64px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.markup_f8f345 {
+    color: var(--purple);
 }
 
 }
