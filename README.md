@@ -3,8 +3,13 @@ Can be installed by putting the nso.theme.css file into your BetterDiscord theme
 To do:
 
 ☐ Top of friends list
+
 ☐ Pinned messages list
+
 ☐ Inbox
+
 ☐ Add drop shadows behind names
+
 ☐ Fix the "users" tab
+
 ☐ Make the server name tab pink
