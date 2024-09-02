@@ -21,5 +21,8 @@ Hint: `C:\Users\user\AppData\Roaming\BetterDiscord\themes`
 - Change right click color
 - Change link colors
 - Make a dark mode
+- Change / command colors
+- change reply background color
+- Change main chat scroll color
 
 This is my first ever discord theme, and first time posting on GitHub, so bear with me.
