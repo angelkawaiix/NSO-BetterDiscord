@@ -15,12 +15,6 @@ All credits go to the original creator! I simply put my own touches to make it N
 
 ## To Do
 - Add example images to the github
-- Change reaction background color
-- Change right click color
-- Change link colors
-- Make a dark mode
-- Change / command colors
 - change reply background color
-- Change main chat scroll color
 
 This is my first ever discord theme, and first time posting on GitHub, so bear with me.
