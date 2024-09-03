@@ -451,6 +451,13 @@
     color: var(--text-normal);
 }
 
+.cozy_f9f2ca .timestamp_f9f2ca {
+    font-size: .75rem;
+    line-height: 1.375rem;
+    color: var(--bluetex);
+    vertical-align: baseline;
+}
+
 
 /* CHANNELS BAR */
 
