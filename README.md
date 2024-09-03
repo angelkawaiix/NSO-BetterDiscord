@@ -8,6 +8,11 @@ Downloade the [lastest release](https://github.com/angelkawaiix/NSO-betterdiscor
 Place the file titled **nso.theme.css** in your BetterDiscord themes folder.
 Hint: `C:\Users\user\AppData\Roaming\BetterDiscord\themes`
 
+##Note
+
+This  theme is essentially an adeptation of the [NineX](https://betterdiscord.app/theme/NineX "NineX") theme.
+All credits go to the original creator! I simply put my own touches to make it NSO themed.
+
 ## To Do
 - Add example images to the github
 - Change reaction background color
